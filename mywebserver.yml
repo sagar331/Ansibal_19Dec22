@@ -6,4 +6,8 @@
     apt: 
       name: apache2
       state: present
-         
+
+  - name: i want to start webserver on ubantu ansibal nodes
+    service:
+        name: apache2
+        state: restarted   
