@@ -12,6 +12,7 @@
     copy:
        src: staticfile.txt
        dest: /home/ubuntu/mystaticfile.txt
+    notify: restartwebserver   
 
   - name: copy index.j2 file into ansible node side
     template:
