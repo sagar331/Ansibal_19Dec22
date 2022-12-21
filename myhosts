@@ -12,3 +12,7 @@
 
 [myUbuntuServers]
 172.31.27.229
+
+[myWebServers:vars]
+webpackonubuntu=apache22222
+webpackonredhat=httpd
