@@ -4,7 +4,7 @@
   tasks:
   - name: install java on ubantu
     apt: 
-     name: openjdk-8-jre
+     name: "{{myjavaonubantu}}"
      state: present
     when: ansible_os_family =="Debian"
   - name: install java o RedHat
