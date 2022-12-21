@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: myWebServers
   become: yes
   tasks: 
   - name: i want to install webserver on ubantu ansibal node
