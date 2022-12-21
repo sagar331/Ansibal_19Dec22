@@ -1,0 +1,6 @@
+---
+- hosts:
+  become: yes
+  tasks:
+  - name: execute linux command
+    command: hostname -f
