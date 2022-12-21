@@ -12,7 +12,7 @@
       name: tree
       state: present
 
-  - name: install wgit
+  - name: install wget
     apt:
-      name: wgit
+      name: wget
       state: present      
