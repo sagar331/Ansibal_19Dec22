@@ -2,17 +2,17 @@
 - hosts: 172.31.34.106
   become: yes
   tasks:
-  - name:
+  - name: install git
     apt:
       name: git
       state: present
 
   - name: install tree
     apt:
-     name: tree
-     state: present
+      name: tree
+      state: present
 
   - name: install wgit
     apt:
-     name: wgit
-     state: present      
+      name: wgit
+      state: present      
